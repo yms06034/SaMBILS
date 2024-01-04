@@ -1,0 +1,38 @@
+first_page_field(browser, rn, cs, cn, brn)
+second_page_field(browser, cc, ct, yoe)
+third_page_field(browser, ra_man, ra_mcw, ra_girl, ra_gcw, r_man, r_mcw, r_girl, r_gcw)
+four_page_field(browser ,s1)
+five_page_field(browser, cm1, cm2, sm1, sm2, em1, em2, bm1, bm2)
+six_page_field(browser, btf) # 주로 거래 형태
+seven_page_field(browser, ii_amount) # 정보화 투자금액
+eight_page_field(browser, ii_amount) # 정보화 투자금액
+nine_page_field(browser, ii_amount) # 정보화 투자금액
+ten_page_field(browser, ii_amount) # 정보화 투자금액
+eleven_page_field(browser, ra, eleven1, eleven2, ii_amount, eleven4) # 사무직 총 인원, 정보보안교육여부, 연횟수, 정보화 교육투자비용, 정보화 담당인력
+random_3 = twelve_page_field(browser, eleven4, twelve2) # 정보화 인력, 정보화 외주여부
+thirteenth_page_field(browser, ii_amount, twelve2, random_3) # 정보화 투자금액, 정보화 외주여부
+fifteen_page_field(browser, ii_amount) # 정보화 투자여부
+ranint = sixteen_page_field(browser, ii_amount) # 정보화 투자여부
+epf4 = seventeen_page_field(browser, ii_amount, eleven1, ranint) # 정보화 투자여부, 정보보안교육여부
+twenty_page_field(browser, ii_amount) # 정보화 투자여부
+twentytwo_page_field(browser, ii_amount) # 정보화 투자여부
+twentyfour_page_field(browser, ii_amount, ranint) # 정보화 투자여부
+twentyfive_page_field(browser)
+twentysix_page_field(browser)
+twentyseven_page_field(browser, eleven4) # 정보화 인력여부
+twentyeight_page_field(browser, eleven4) # 정보화 인력여부
+twentynine_page_field(browser, eleven4) # 정보화 인력여부
+thirty_page_field(browser, eleven4, twseven1) # 정보화 인력여부, 데이터 부서 여부
+thirtyone_page_field(browser, thtwo, thtwo2, thtwo3) # 활용AI 여부1, 활용AI 여부2, 활용AI 여부(기타 Text)
+thirtythree_page_field(browser, eleven4) # 정보화 인력여부
+thirtyfour_page_field(browser, eleven4) # 정보화 인력여부
+thirtyfive_page_field(browser, epf4)
+thirtysix_page_field(browser)
+thirtyseven_page_field(browser)
+thirtyeight_page_field(browser, eleven1) # 정보보안교육여부
+thirtynine_page_field(browser)
+forty_page_field(browser, eleven4) # 정보화 인력
+fortyone_page_field(browser, eleven4) # 정보화 인력여부
+fortytwo_page_field(browser)
+final_page_field(browser, name, company_name, pos, email, tel) # 이름, 회사이름, 직급, 이메일, 전화번호
+fortythree_page_field(browser, name, phone_number) # 이름, 휴대폰 번호
